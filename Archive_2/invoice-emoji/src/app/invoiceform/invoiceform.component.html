@@ -1,0 +1,20 @@
+<div class="row">
+<div class="mb-3 col-md-3">
+    <label for="invoiceform1" class="form-label">Item: </label>
+    <input [(ngModel)]="tjItemTransac" type="text" name="item" class="form-control" id="invoiceform1" placeholder="Item">
+</div>
+
+<div class="mb-3 col-md-3">
+    <label for="invoiceform2" class="form-label">Hours: </label>
+    <input [(ngModel)]="tjHourTransac" type="hours" name="time" class="form-control" id="invoiceform2" placeholder="Item" style="width: 160px">
+</div>
+
+<div class="mb-3 col-md-3">
+    <label for="invoiceform3" class="form-label">Hourly Rate: </label>
+    <input [(ngModel)]="tjRateTransac" type="Rate" name="salary" class="form-control" id="invoiceform3" placeholder="Item" style="width: 160px">
+</div>
+
+<div class="mb-3 col-md-3 d-flex align-items-end">
+    <button class="btn btn-primary" (click)="tjAddInvoice()">Add Hours</button>
+</div>
+</div>

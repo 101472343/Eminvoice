@@ -1,0 +1,36 @@
+<table cellpadding="0" cellspacing="0">
+    <tr class="top" >
+        <td colspan="4">
+            <table>
+                <tr>
+                    <td class="title">
+                        <img src="./assets/emoji.png"  width="100" height="100">
+                    </td>
+                    
+                    <td style="width: 645px; text-align: right;">
+                        Invoice Number: {{tjInvoiceData.code}}<br>
+                        Created: {{tjInvoiceData.date | date}}<br>                               
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    
+    <tr class="information">
+        <td colspan="4">
+            <table>
+                <tr>
+                    <td>
+                        {{tjInvoiceData.name}}<br>
+                        {{tjInvoiceData.address}}<br>
+                        {{tjInvoiceData.city}}
+                    </td>
+                    
+                    <td>
+                       
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
